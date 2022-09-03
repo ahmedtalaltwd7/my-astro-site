@@ -1,0 +1,28 @@
+---
+import  Co  from  "../Co/Co.svelte";
+import Fet from "../Co/Fet.svelte";
+
+
+import  Header from '../Co/Header.svelte';
+import  Layout from '../Layout/layout.astro';
+export interface Props{
+	head:string;
+}
+---
+
+
+	
+
+
+<Layout title="twd-main">
+	
+		
+			<Header/>
+
+			<Fet client:visible/>
+			
+<Co/>
+			
+		
+
+	</Layout>
