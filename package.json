@@ -10,13 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^1.9.2"
-   
+    "astro": "^6.2.1"
   },
   "devDependencies": {
-    "@astrojs/svelte": "^1.0.0",
-    "@astrojs/tailwind": "^1.0.0",
-    "svelte": "^3.49.0",
-    "daisyui": "^2.24.0"
+    "@astrojs/svelte": "^8.1.0",
+    "@astrojs/tailwind": "^6.0.2",
+    "daisyui": "^5.5.19",
+    "svelte": "^5.55.5"
   }
 }
